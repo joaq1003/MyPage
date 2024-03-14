@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROBANDO COSAS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <HEAder>
+        <h1>
+            BIENVENIDO, PAPINO
+        </h1>
+    </HEAder>
+    <nav>
+        <UL>
+            <li><a href = "#Inicio">Inicio</a></li>
+            <li><a href = "form-acerca-mio.html">Acerca Mio</a></li>
+            <li><a href = "#" onclick = "toggleContact()">Contacto</a>
+                <ul id = "contact-menu">
+                    <li><a href = "#WhatsApp">WhatsApp</a></li>
+                    <li><a href = "#GMAIL">GMAIL</a></li>
+                </ul>
+            </li>
+            <li><a href = "#" onclick = "toggleSocialMenu()">Redes Sociales</a>
+                <!--Menu desplegable de redes sociales-->
+                <ul id = "social-menu">
+                    <li><a href = "https://www.instagram.com/joagarciq/">Instagram</a></li>
+                    <li><a href = "https://twitter.com/GarciaJoa_">X</a></li>
+                    <li><a href = "https://www.linkedin.com/in/joaquin-garcia-465303263/">Linkedin</a></li>
+                    <li><a href = "https://www.facebook.com/JoaquinRcts.Garcia">Facebook</a></li>
+                </ul>
+            </li>
+        </UL>
+    </nav>
+    <section id="Inicio">
+        <h2>Seccion de inicio</h2>
+        <p>
+            No sos bienvenido. No vas a encontrar nada interesante
+        </p>
+    </section>
+    
+    <section id="Contacto">
+        <h2>Contacto</h2>
+        <p>Podes INTENTAR contactarme, pero no te voy a contestar</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Me reservo todos los derechos</p>
+    </footer>
+    <script src = "script.js"></script>
+</body>
+</html>

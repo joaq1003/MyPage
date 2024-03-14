@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Navegación */
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    size:0cqi;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*REDES SOCIALES*/
+
+/* Estilo para ocultar el menú de redes sociales por defecto */
+#social-menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+/*Estilo para mostrar el menu de redes sociales cuando se despliega*/
+#social-menu.active {
+    opacity: 1;
+    visibility: visible;
+    size-adjust: unset;
+}
+
+/*Estilo para mostrar los elementos de la lista desplegable verticalmente*/
+#social-menu li{
+    display:block;
+}
+
+/*CONTACTO*/
+
+/*Estilo para ocultar el menu de contacto por defecto*/
+#contact-menu{
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+/*Estilo para mostrar el menu de redes sociales cuando se despliega*/
+#contact-menu.active{
+    opacity: 1;
+    visibility: visible;
+    size-adjust: unset;
+}
+
+/*Estilo para mostrar los elementos de la lista desplegable verticalmente*/
+#contact-menu li{
+    display: block;
+}
+
+
+/* Secciones */
+section {
+    padding: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul ul a:hover {
+    background: #666;
+}
